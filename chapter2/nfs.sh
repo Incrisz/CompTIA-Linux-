@@ -1,3 +1,8 @@
+sudo ufw allow 111/tcp
+sudo ufw allow 2049/tcp
+
+
+
 sudo apt update
 sudo apt install nfs-kernel-server -y  # For Ubuntu/Debian
 # sudo yum install nfs-utils -y          # For RHEL/CentOS/AlmaLinux
